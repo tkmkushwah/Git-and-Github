@@ -1,7 +1,12 @@
-#================configure git locally============
+#================configure git locally=====================
 
 git config --global user.name "Tikam singh"
 git config --global user.email "su63674@gmail.com"
 git config --global core.editor "vim"
 
+#================Set Up .gitignore and README.md ==========
+
+echo ".env" >> .gitignore
+echo "# Git Advanced Project" > README.md
+echo "This project contains advanced Git and GitHub operations." >> README.md
 
