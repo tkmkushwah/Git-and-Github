@@ -10,3 +10,12 @@ echo ".env" >> .gitignore
 echo "# Git Advanced Project" > README.md
 echo "This project contains advanced Git and GitHub operations." >> README.md
 
+#================Create and Manage Branches===============
+
+git branch test-branch
+git checkout test-branch
+git switch -c feature-branch #combination of above two commands
+
+#=================
+
+
