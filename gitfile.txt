@@ -1,0 +1,7 @@
+#================configure git locally============
+
+git config --global user.name "Tikam singh"
+git config --global user.email "su63674@gmail.com"
+git config --global core.editor "vim"
+
+
